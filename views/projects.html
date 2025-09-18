@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophie's Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <style>
+    .accordion-button {
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+    }
+  </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://64.media.tumblr.com/aebab3100df6d9e09371b8812764aaa2/e5910d1820e0bb67-60/s1280x1920/6b8b18fedfaa6b15211d0b2ac906bf769d8d76b6.png" width="50" height="50">
+      </a>
+    </div>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link d-flex align-items-center gap-2" href="home.html">
+              <img src="https://cdn-icons-png.flaticon.com/512/61/61972.png" width="15" height="15" alt="Home">
+              <span>Home</span>
+          </a>
+          <a class="nav-link d-flex align-items-center gap-2" href="hobbies.html">
+              <img src="https://cdn-icons-png.freepik.com/512/6009/6009323.png" width="15" height="15" alt="Hobbies">
+              <span>Hobbies</span>
+          </a>
+          <a class="nav-link active d-flex align-items-center gap-2" aria-current="page" href="projects.html">
+              <img src="https://cdn-icons-png.flaticon.com/512/662/662608.png" width="15" height="15" alt="Projects">
+              <span>Projects</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <div class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          DNA Project
+        </div>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>C++</strong> This program is a DNA analysis tool that validates DNA strands and lets users perform operations like calculating similarity, finding the best strand alignment, detecting mutations, transcribing DNA to RNA, generating reverse complements, and identifying coding frames. It’s all menu-driven, so the user just selects an option, inputs sequences, and the program outputs the corresponding analysis.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <div class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          Lion King Game
+        </div>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>C++</strong> This program is a two-player text-based board game where players choose lion characters, follow different life paths, and take turns rolling dice to advance toward Pride Rock. Along the way they gain or lose pride points and stats, and once both reach Pride Rock their final points are tallied (with extra stats converted into points) to determine who becomes the Pride Leader, with the winner’s info saved to a file.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <div class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+          Dungeon Simulation
+        </div>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>C++</strong> This program implements a hash table to store character items, where each entry contains a character name, an item, its power, and a description. Users can insert items, search for characters, delete specific items, and print the table to see all entries. The program handles collisions internally and can report the total number of collisions, effectively combining hashing with item management for quick lookups and updates.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="mt-auto">
+    <div class="container text-center py-4">
+      <h5>Connect with me!</h5>
+      <a href="https://github.com/sophiecnguyen" target="_blank" class="btn btn-outline-light mx-2" style="background-color: white; color: #24292f; border: 1px solid #ccc;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="20" height="20" class="me-2">
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/sophie-nguyen-334425325/" target="_blank" class="btn btn-outline-light mx-2" style="background-color: white; color: #0a66c2; border: 1px solid #ccc;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="20" height="20" class="me-2">
+        LinkedIn
+      </a>
+    </div>
+  </footer>
+
+</body>
